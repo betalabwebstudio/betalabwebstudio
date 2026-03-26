@@ -10,7 +10,6 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: 10px;
-    position: relative;
 }
 .logo{
     width: 80px;
@@ -33,7 +32,6 @@ header{
     transition: 0.5s;
     transform: scale(1.1);
     color: #22C55E;
-    
 }
 
 /*Container 1*/
@@ -41,8 +39,8 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #171b22;
-    padding: 20px;
-    height: 12vh;
+    margin-top: 0;
+    padding: 10px;
 }
 .container-titulos h3{
     color:  #FFFFFF;
@@ -58,7 +56,6 @@ header{
 .botones-container1{
     background-color: #171b22;
     padding: 20px;
-    position: relative;
 }
 .botones-container1 button{
     margin: 5px;
