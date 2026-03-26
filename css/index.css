@@ -170,4 +170,57 @@ header{
 }
 .p-remoto{  
     color: #1F2937;
+    font-size: 15px;
+    padding: 2px;
 }
+
+/*Portafolio*/
+
+.portafolio h4{
+    margin-top: 0;
+    text-align: center;
+}
+
+.container-portafolio{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 5px;
+    justify-items: center;
+    padding: 10px;
+}
+
+.tarjeta-portafolio{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: stretch;
+}
+
+.tarjeta-portafolio img{
+    width: 120px;
+}
+
+.tarjeta-portafolio a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: #1F2937;
+    padding: 8px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.tarjeta-portafolio a:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    color: #171b22;
+    background-color: #22C55E;
+}
+
+.tarjeta-portafolio:hover {
+    border-radius: 10px;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
