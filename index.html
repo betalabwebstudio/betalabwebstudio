@@ -33,7 +33,7 @@
         </div>
         <div class="botones-container1">
             <button>Solicitar presupuesto</button>
-            <button>Ver planes</button>
+            <button id="btn-planes" onclick="verPlanes()">Ver planes</button>
         </div>
 
         <!--sobre nosotros-->
@@ -94,9 +94,11 @@
                 <li>Gestión de Turnos</li>
             </ul>
         </div>
-
+            
     </div>
-    
+
+        <button onclick="verPlanes()" id="btn-planes"  class="btn-planes" >Ver planes</button>
+
     <div>
         <p class="p-remoto">Brindamos Asesoramiento y capacitación en modalidad presencial o remota en todos nuestros servicios</p>
     </div>
@@ -147,7 +149,6 @@
             </div>
 
             
-
         </div>
 
     </section>
@@ -158,5 +159,10 @@
     <footer>
 
     </footer>
+
+
+    <!--Scripts-->
+
+    <script src="js/accion-botones.js"></script>
 </body>
 </html>
