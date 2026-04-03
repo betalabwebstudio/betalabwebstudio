@@ -3,166 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <link rel="stylesheet" href="css/index.css">
+    <title>Inicio - Betalab Games Py</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        <div class="container-logo">
-            <img class="logo" src="img/logo.jpeg" alt="">
+        <div class="caja-logo">
+            <img src="img/logo.webp" alt="logo">
         </div>
-        <div class="container-enlaces">
-            <a href="index.html">Inicio</a>
-            <a href="planes.html">Planes</a>
-            <a href="contacto.html">Contacto</a>
-        </div>
+
+        <nav class="navegador-principal">
+            <a href="">Inicio</a>
+            <a href="">Consolas</a>
+            <a href="">Accesorios</a>
+            <a href="">Servicios</a>
+            <a href="">Contacto</a>
+        </nav>
     </header>
     <main>
-        <!--Seccion 1-->
-        <div class="container1">
-
-            <div class="container-titulos">
-                <h3>Creamos soluciones, impulsamos <br>negocios</h3>
-                <p>Diseño de páginas web y sistemas de gestión a medida.</p>
+        <section class="primera-seccion">
+            <div>
+                <h3>Redefine tu experiencia Gamer</h3>
+                <h5>Encontrá Juegos, accesorios y servicios para playstation en un solo lugar.</h5>
             </div>
+        </section>
 
-            <div class="container-img">
-                <img class="img-ilustrativa" src="img/imagen-ilustrativa.png" alt="">
+        <section class="beneficios">
+            <div>
+            <img src="img/a-tiempo.png" alt="">
+            <p>Entregas en 24 Hs</p>
+            <img src="img/verificacion.png" alt="">
+            <p>Productos Verificados</p>
+            <img src="img/apoyo-tecnico.png" alt="">
+            <p>Soporte remoto</p>
             </div>
-            
-        </div>
-        <div class="botones-container1">
-            <button>Solicitar presupuesto</button>
-            <button id="btn-planes" onclick="verPlanes()">Ver planes</button>
-        </div>
+        </section>
 
-        <!--sobre nosotros-->
-
-        <div class="linea-con-texto">
-            <hr>
-                <h2 class="titulos">Sobre nosotros</h2>
-            <hr>
-        </div>
-
-        <div class="container-sobre-nosotros">
-            <h4>En <span>Betalab Web Studio</span> integramos tecnología para el crecimiento de tu negocio </h4>
-            
-            <div class="container-servicios">
-                <div class="items">
-                    <img class="check" src="img/check.png" alt="">
-                    <p>Páginas Web</p>
-                </div>
-                <div class="items">
-                    <img class="check" src="img/check.png" alt="">
-                    <p>Sistemas de Gestión</p>
-                </div>
-                <div class="items">
-                    <img class="check" src="img/check.png" alt="">
-                    <p>Soluciones a medida</p>
-                </div>
-
-            </div>
-        </div>
+        <div class="carrusel-container">
+        <h2 class="prod_ven">Productos Más Vendidos</h2>
         
-
-        <!--Servicios-->
-        <div class="linea-con-texto">
-            <hr>
-                <h2 class="titulos">Servicios</h2>
-            <hr>
+        <div class="carrusel-wrapper">
+            <div class="carrusel-pista" id="carruselPista">
+                <!-- Aquí se cargarán los productos -->
+                <div class="loading">Cargando productos...</div>
+            </div>
         </div>
+    </div>
 
-        <section class="servicios">
-    <div class="contenedor-tarjetas">
+    <div id="productosps2-container"></div>
         
-        <div class="tarjeta">
-            <h3>Presencia Digital <br> profesional</h3>
-            <ul>
-                <li>Diseño de páginas web corporativas</li>
-                <li>Landing Page</li>
-                <li>Tiendas Online</li>
-            </ul>
-        </div>
-
-        <div class="tarjeta">
-            <h3>Sistemas de gestión</h3>
-            <ul>
-                <li>Sistema de clientes</li>
-                <li>Sistema de ventas y facturación</li>
-                <li>Control de Inventario</li>
-                <li>Sistema de reportes</li>
-                <li>Gestión de Turnos</li>
-            </ul>
-        </div>
-            
-    </div>
-
-        <button onclick="verPlanes()" id="btn-planes"  class="btn-planes" >Ver planes</button>
-
-    <div>
-        <p class="p-remoto">Brindamos Asesoramiento y capacitación en modalidad presencial o remota en todos nuestros servicios</p>
-    </div>
-    </section>
-
-    <!--Portafolio-->
-
-    <div class="linea-con-texto">
-        <hr>
-            <h2 class="titulos">Portafolio</h2>
-        <hr>
-    </div>
-
-    <section class="portafolio">
-
-        <h4>Algunos de nuestros trabajos</h4>
-
-        <div class="container-portafolio">
-
-            <div class="tarjeta-portafolio">
-                <img src="img/ejemplos.jpg" alt="">
-                <a href="">Barbería</a>
-            </div>
-
-            <div class="tarjeta-portafolio">
-                <img src="img/ejemplos.jpg" alt="">
-                <a href="">Perfumería</a>
-            </div>
-
-            <div class="tarjeta-portafolio">
-                <img src="img/ejemplos.jpg" alt="">
-                <a href="">Joyería</a>
-            </div>
-
-            <div class="tarjeta-portafolio">
-                <img src="img/ejemplos.jpg" alt="">
-                <a href="">Salón de Spa</a>
-            </div>
-
-            <div class="tarjeta-portafolio">
-                <img src="img/ejemplos.jpg" alt="">
-                <a href="">Sistema Bancario</a>
-            </div>
-
-            <div class="tarjeta-portafolio">
-                <img src="img/ejemplos.jpg" alt="">
-                <a href="">Sistema para ande</a>
-            </div>
-
-            
-        </div>
-
-    </section>
-
-
-
     </main>
-    <footer>
-
-    </footer>
-
-
-    <!--Scripts-->
-
-    <script src="js/accion-botones.js"></script>
 </body>
+
+<script src="javascript/masvendidos.js"></script>
+
 </html>

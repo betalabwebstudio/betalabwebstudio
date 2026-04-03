@@ -1,0 +1,47 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Pendrive con 8 juegos PS2",
+            "descripcion": "Juegos a elección del cliente",
+            "precio": 100000,
+            "imagen": "img/pendrives/pen32.png"
+        },
+        {
+            "id": 2,
+            "nombre": "Pendrive con 12 juegos PS2",
+            "descripcion": "Juegos a elección del cliente",
+            "precio": 120000,
+            "imagen": "img/pendrives/pen64.png"
+        },
+        {
+            "id": 3,
+            "nombre": "Playstation 2",
+            "descripcion": "Dos controles, 8 Juegos, Cable video-alimentación y memory card",
+            "precio": 580000,
+            "imagen": "img/consolas/play-2.png"
+        },
+        {
+            "id": 4,
+            "nombre": "Playstation 3",
+            "descripcion": "Un control, 18 Juegos, 3 tiendas, Cable hdmi-alimentacion-cargador",
+            "precio": 850000,
+            "imagen": "img/consolas/play-3.png"
+
+        },
+        {
+            "id": 5,
+            "nombre": "Memory Card 8mb",
+            "descripcion": "Memory Card para ps2 con opl",
+            "precio": 70000,
+            "imagen": "https://i.pinimg.com/736x/33/ff/e7/33ffe73d65fdab0f184a22d3006b7e1a.jpg"
+        },
+        {
+            "id": 6,
+            "nombre": "Control Play 2",
+            "descripcion": "Control Genérico Sony",
+            "precio": 70000,
+            "imagen": "https://tse2.mm.bing.net/th/id/OIP.0AxBoDrUWFFKF2zWwlkWUgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+        }
+    ]
+}
