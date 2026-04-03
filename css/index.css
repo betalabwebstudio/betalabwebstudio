@@ -301,7 +301,7 @@ footer{
     color: #FFFFFF;
 }
 
-/* ========== MEDIA QUERIES - SOLO AJUSTES MÍNIMOS ========== */
+/* ========== MEDIA QUERIES - CON IMÁGENES CENTRADAS ========== */
 
 /* Pantallas de hasta 950px */
 @media (max-width: 950px) {
@@ -315,6 +315,7 @@ footer{
     
     .container-portafolio {
         gap: 10px;
+        justify-content: center;
     }
 }
 
@@ -330,6 +331,10 @@ footer{
     
     .tarjeta ul {
         font-size: 13px;
+    }
+    
+    .container-portafolio {
+        justify-content: center;
     }
     
     .tarjeta-portafolio img {
@@ -360,6 +365,10 @@ footer{
     .btn-planes {
         font-size: 12px;
         padding: 8px;
+    }
+    
+    .container-portafolio {
+        justify-content: center;
     }
     
     .tarjeta-portafolio img {
@@ -425,6 +434,10 @@ footer{
     
     .tarjeta ul {
         font-size: 11px;
+    }
+    
+    .container-portafolio {
+        justify-content: center;
     }
     
     .tarjeta-portafolio img {
@@ -503,6 +516,15 @@ footer{
         margin-top: 15px;
     }
     
+    .container-portafolio {
+        justify-content: center;
+    }
+    
+    .tarjeta-portafolio {
+        align-items: center;
+        text-align: center;
+    }
+    
     .tarjeta-portafolio img {
         width: 75px;
     }
@@ -510,6 +532,8 @@ footer{
     .tarjeta-portafolio a {
         font-size: 10px;
         padding: 5px;
+        width: auto;
+        min-width: 60px;
     }
     
     .contacto {
@@ -578,6 +602,14 @@ footer{
     
     .tarjeta li::before {
         font-size: 8px;
+    }
+    
+    .container-portafolio {
+        justify-content: center;
+    }
+    
+    .tarjeta-portafolio {
+        align-items: center;
     }
     
     .tarjeta-portafolio img {
