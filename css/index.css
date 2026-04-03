@@ -5,6 +5,8 @@ body{
     padding: 0;
     border: none;
     cursor: default;
+    overflow-x: hidden; 
+    max-width: 100%;
 }
 header{
     display: flex;
@@ -634,4 +636,19 @@ footer{
     .item-contacto {
         gap: 6px;
     }
+}
+
+/* ========== ELIMINAR RESALTADO AZUL EN MÓVILES ========== */
+
+/* Opción 1: Para toda la página */
+* {
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+}
+
+/* Opción 2: Solo para enlaces y botones (recomendado) */
+a, button, .container-enlaces a, .btn-planes, 
+.tarjeta-portafolio a, .contacto a, .item-contacto {
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
 }
