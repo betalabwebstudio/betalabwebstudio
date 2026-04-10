@@ -53,18 +53,17 @@ div{
 
 select{
     padding: 5px;
-    border: solid #22C55E 1px;
+    border: solid #22C55E 2px;
 }
 
 input{
     height: 20px;
-    border: solid #22C55E 1px;
+    border: solid #22C55E 2px;
     padding: 5px;
 }
 
 textarea{
-    height: 20px;
-    border: solid #22C55E 1px;
+    border: solid #22C55E 3px;
     padding: 5px;
     height: 50px;
     width: 200px;
@@ -97,7 +96,7 @@ footer{
     background-color: #333;
     padding: 20px;
     gap: 2px;
-    height: auto;
+    margin-top: 5px;
 }
 .container-horario{
     color: white;
