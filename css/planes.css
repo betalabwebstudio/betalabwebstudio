@@ -37,6 +37,13 @@ header{
     color: #22C55E;
 }
 
+.titulo{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: #1F2937; 
+}
+
 .planes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -46,12 +53,6 @@ header{
     max-width: 1200px;
     margin: 0 auto;
 }
-
-.plan-item:nth-child(1) { grid-column: 1 / 2; }
-.plan-item:nth-child(2) { grid-column: 2 / 3; }
-.plan-item:nth-child(3) { grid-column: 2 / 3; }
-.plan-item:nth-child(4) { grid-column: 1 / 2; }
-.plan-item:nth-child(5) { grid-column: 2 / 3; }
 
 .tarjeta-basico, 
 .tarjeta-medio, 
@@ -212,18 +213,56 @@ header{
     color: #cdae12;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #333;
+    padding: 20px;
+    gap: 2px;
+    margin-top: 5px;
+}
+.container-horario{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.copyright{
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.btn-planper{
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #1F2937;
+    color: white;
+}
+.btn-planper:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    color: black;
+    background-color: #22C55E;
+}
+
 @media (max-width: 900px) {
     .planes {
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
         padding: 30px;
     }
-    
-    .plan-item:nth-child(1) { grid-column: auto; }
-    .plan-item:nth-child(2) { grid-column: auto; }
-    .plan-item:nth-child(3) { grid-column: auto; }
-    .plan-item:nth-child(4) { grid-column: auto; }
-    .plan-item:nth-child(5) { grid-column: auto; }
     
     .tarjeta-basico, 
     .tarjeta-medio, 
@@ -269,7 +308,7 @@ header{
 @media (max-width: 550px) {
     .planes {
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        gap: 33px;
         padding: 20px;
     }
     
@@ -312,4 +351,25 @@ header{
         padding: 6px;
         font-size: 9px;
     }
+}
+
+
+
+
+
+
+
+/* ========== ELIMINAR RESALTADO AZUL EN MÓVILES ========== */
+
+/* Opción 1: Para toda la página */
+* {
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+}
+
+/* Opción 2: Solo para enlaces y botones (recomendado) */
+a, button, .container-enlaces a, .btn-planes, 
+.tarjeta-portafolio a, .contacto a, .item-contacto {
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
 }

@@ -1,0 +1,70 @@
+body{
+    background-color: #FFFFFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: default;
+    overflow-x: hidden; 
+    max-width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.logo{
+    width: 80px;
+    border-radius: 50px;
+}
+.container-logo{
+    padding: 8px;
+}
+.container-enlaces{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.container-enlaces a{
+    color: #1F2937;
+    text-decoration: none;
+    padding: 5px;
+}
+.container-enlaces a:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    color: #22C55E;
+}
+ .titulo{
+    padding: 10px;
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+ }
+
+/*Desarrollo*/
+div{
+    display: block;
+    padding: 20px;
+
+}
+
+
+
+
+
+ /* ========== ELIMINAR RESALTADO AZUL EN MÓVILES ========== */
+
+/* Opción 1: Para toda la página */
+* {
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+}
+
+/* Opción 2: Solo para enlaces y botones (recomendado) */
+a, button, .container-enlaces a, .btn-planes, 
+.tarjeta-portafolio a, .contacto a, .item-contacto {
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+}

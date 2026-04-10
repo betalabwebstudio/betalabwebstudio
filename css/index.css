@@ -37,56 +37,6 @@ header{
     color: #22C55E;
 }
 
-/* ========== HEADER RESPONSIVE (como en planes) ========== */
-/* Pantallas menores a 900px */
-@media (max-width: 900px) {
-    header {
-        margin: 8px;
-    }
-    
-    .logo {
-        width: 65px;
-    }
-    
-    .container-logo {
-        padding: 5px;
-    }
-    
-    .container-enlaces {
-        gap: 8px;
-        padding: 12px;
-    }
-    
-    .container-enlaces a {
-        font-size: 13px;
-        padding: 4px;
-    }
-}
-
-/* Pantallas menores a 550px */
-@media (max-width: 550px) {
-    header {
-        margin: 5px;
-    }
-    
-    .logo {
-        width: 50px;
-    }
-    
-    .container-logo {
-        padding: 3px;
-    }
-    
-    .container-enlaces {
-        gap: 5px;
-        padding: 8px;
-    }
-    
-    .container-enlaces a {
-        font-size: 11px;
-        padding: 3px;
-    }
-}
 
 /*Container 1*/
 .container1{
@@ -454,15 +404,6 @@ footer{
 
 /* Pantallas de hasta 650px */
 @media (max-width: 650px) {
-    .logo {
-        width: 70px;
-    }
-    
-    .container-enlaces a {
-        font-size: 13px;
-        padding: 4px;
-    }
-    
     .container-titulos h3 {
         font-size: 18px;
     }
@@ -517,16 +458,6 @@ footer{
 
 /* Pantallas de hasta 550px */
 @media (max-width: 550px) {
-    .container-enlaces {
-        gap: 5px;
-        padding: 15px;
-    }
-    
-    .container-enlaces a {
-        font-size: 11px;
-        padding: 3px 5px;
-    }
-    
     .container-titulos h3 {
         font-size: 16px;
     }
@@ -622,15 +553,6 @@ footer{
 
 /* Pantallas de hasta 450px */
 @media (max-width: 450px) {
-    .logo {
-        width: 60px;
-    }
-    
-    .container-enlaces a {
-        font-size: 10px;
-        padding: 2px 4px;
-    }
-    
     .img-ilustrativa {
         width: 95px;
     }
