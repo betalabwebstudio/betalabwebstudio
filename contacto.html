@@ -24,9 +24,9 @@
     <!--Formulario-->
 
     <div>
-        <h2>Nombre y apellido:</h2>
+        <h2 id="nombre">Nombre y apellido:</h2>
         <input placeholder="Ej: Juan Pérez" type="text" id="nombre">
-        <h2>Número de celular:</h2>
+        <h2 id="numero">Número de celular:</h2>
         <input placeholder="Ej: 0993574822" type="number" id="numero">
         <h2>Tipo de proyecto:</h2>
         <select  id="cmbproyecto">
@@ -36,10 +36,10 @@
             <option>Sistema de Gestión</option>
         </select>
         <h2>Describir el mensaje:</h2>
-        <textarea  id=""></textarea>
+        <textarea  id="mensaje"></textarea>
         <br> <br>
         <div class="container-btn">
-            <button class="btnenviar" id="btnenviar">Enviar</button>
+            <button class="btnenviar" onclick="enviarWhatsApp()" id="btnenviar">Enviar</button>
         </div>
         
         <h4>Respondemos en menos de 1 hora en horario laboral</h4>

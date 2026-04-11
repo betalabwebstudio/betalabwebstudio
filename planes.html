@@ -25,7 +25,7 @@
         <section class="planes">
 
             <div class="tarjeta-basico">
-                <h3>Plan Básico <br> Presencia Online</h3>
+                <h3 id="nombre-plan">Plan Básico <br> Presencia Online</h3>
                 <h4 class="cat_landing">Categoría: Landing Page</h4>
                 <ul>
                     <li>Diseño web moderna</li>
@@ -38,11 +38,11 @@
                 </ul>
                 <p class="descripcion">Ideal para barberías, cafeterías, técnicos, servicios en general</p>
                 <h4 class="precio">Desde 800.000 Gs</h4>
-                <button class="btnbasico">Elegir plan</button>
+                <button onclick="planBasico()" class="btnbasico">Elegir plan</button>
             </div>
 
             <div class="tarjeta-medio">
-                <h3>Plan Tienda Online <br> Negocio Digital</h3>
+                <h3 id="nombre-plan">Plan Tienda Online <br> Negocio Digital</h3>
                 <h4 class="cat_tienda">Categoría: Tienda Web</h4>
                 <ul>
                     <li>Tienda web con carrito de compras</li>
@@ -55,11 +55,11 @@
                 </ul>
                 <p class="descripcion">Ideal para ventas por facebook e instagram</p>
                 <h4 class="precio">Desde 1.500.000 Gs</h4>
-                <button class="btnmedio">Elegir plan</button>
+                <button onclick="planTiendaOnline()" class="btnmedio">Elegir plan</button>
             </div>
 
             <div class="tarjeta-medio">
-                <h3>Plan Tienda premium <br> Ventas Automatizadas</h3>
+                <h3 id="nombre-plan">Plan Tienda premium <br> Ventas Automatizadas</h3>
                 <h4 class="cat_tienda">Categoría: Tienda Web</h4>
                 <ul>
                     <li>Todo lo del plan básico</li>
@@ -72,11 +72,11 @@
                 </ul>
                 <p class="descripcion">Ideal para tiendas de ropa, electrónica, accesorios...</p>
                 <h4 class="precio">Desde 2.500.000 Gs</h4>
-                <button class="btnmedio">Elegir plan</button>
+                <button onclick="planTiendaPremium()" class="btnmedio">Elegir plan</button>
             </div>
 
             <div class="tarjeta-premium">
-                <h3>Plan Control Inicial</h3>
+                <h3 id="nombre-plan">Plan Control Inicial</h3>
                 <h4 class="cat_sistema">Categoría: Sistema</h4>
                 <ul>
                     <li>Sistema Básico (Local o Web Simple)</li>
@@ -90,11 +90,11 @@
                 </ul>
                 <p class="descripcion">Ideal para tiendas pequeñas, barberías, servicios técnicos</p>
                 <h4 class="precio">Desde 1.350.000 Gs</h4>
-                <button class="btnpremium">Elegir plan</button>
+                <button onclick="planControlInicial()" class="btnpremium">Elegir plan</button>
             </div>
 
             <div class="tarjeta-premium">
-                <h3>Plan Negocio Organizado</h3>
+                <h3 id="nombre-plan">Plan Negocio Organizado</h3>
                 <h4 class="cat_sistema">Categoría: Sistema</h4>
                 <ul>
                     <li>Todo lo del plan Control Inicial +</li>
@@ -109,7 +109,7 @@
                 </ul>
                  <p class="descripcion">Ideal para tiendas tiendas, cafeterías, negocios en movimiento constante</p>
                 <h4 class="precio">Desde 2.000.000 Gs</h4>
-                <button class="btnpremium">Elegir plan</button>
+                <button onclick="planNegocioOrganizado()" class="btnpremium">Elegir plan</button>
             </div>
 
 
@@ -118,7 +118,7 @@
 
     <div class="container-btn">
         <h6 class="planper">¿Necesitas algo más personalizado?</h6>
-    <button class="btn-planper" link="https://wa.me/595993574822?text=Hola%20quiero%20solicitar%20un%20servicio%20personalizado">Solicitar plan personalizado</button>
+    <button class="btn-planper" onclick="window.location.href='contacto.html';" >Solicitar plan personalizado</button>
     </div>
 
     <footer>
@@ -134,5 +134,6 @@
 
 
     <script src="js/accion-botones.js"></script>
+    <script src="js/planes.js"></script>
 </body>
 </html>
