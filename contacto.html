@@ -24,26 +24,30 @@
     <!--Formulario-->
 
     <div>
-        <h2 id="nombre">Nombre y apellido:</h2>
-        <input placeholder="Ej: Juan Pérez" type="text" id="nombre">
-        <h2 id="numero">Número de celular:</h2>
-        <input placeholder="Ej: 0993574822" type="number" id="numero">
-        <h2>Tipo de proyecto:</h2>
-        <select  id="cmbproyecto">
-            <option>Elija una opción</option>
-            <option>Landing Page</option>
-            <option>Tienda Web</option>
-            <option>Sistema de Gestión</option>
-        </select>
-        <h2>Describir el mensaje:</h2>
-        <textarea  id="mensaje"></textarea>
-        <br> <br>
-        <div class="container-btn">
-            <button class="btnenviar" onclick="enviarWhatsApp()" id="btnenviar">Enviar</button>
-        </div>
-        
-        <h4>Respondemos en menos de 1 hora en horario laboral</h4>
+    <h2>Nombre y apellido:</h2>
+    <input placeholder="Ej: Juan Pérez" type="text" id="nombre">
+    
+    <h2>Número de celular:</h2>
+    <input placeholder="Ej: 0993574822" type="tel" id="numero">
+    
+    <h2>Tipo de proyecto:</h2>
+    <select id="cmbproyecto">
+        <option>Elija una opción</option>
+        <option>Landing Page</option>
+        <option>Tienda Web</option>
+        <option>Sistema de Gestión</option>
+    </select>
+    
+    <h2>Describir el mensaje:</h2>
+    <textarea id="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea>
+    <br> <br>
+    
+    <div class="container-btn">
+        <button class="btnenviar" onclick="enviarWhatsApp()">Enviar</button>
     </div>
+    
+    <h4>Respondemos en menos de 1 hora en horario laboral</h4>
+</div>
 
     <footer>
         <div class="container-horario">
