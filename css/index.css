@@ -91,23 +91,14 @@ header{
 .titulos{
     color: black;
 }
-.container-servicios{
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-}
+
 .container-sobre-nosotros{
-    padding: 5px;
-}
-.items{
+    padding: 8px;
     display: flex;
-    align-items: center; 
-    gap: 10px;
-}
-.check{
-    width: 20px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 20px;
+    justify-content: center;
+    text-align: justify;
+    word-break: break-word; /* Rompe la palabra si es necesario */
+    overflow-wrap: break-word;
 }
 
 /*Servicios*/
@@ -186,6 +177,7 @@ header{
     color: white;
     padding: 10px;
     border-radius: 50px;
+    font-size: 20px;
 }
 
 .btn-planes:hover{
@@ -472,7 +464,7 @@ footer{
     }
     
     .botones-container1 button {
-        font-size: 11px;
+        font-size: 15px;
         padding: 3px 6px;
     }
     
@@ -495,7 +487,7 @@ footer{
     }
     
     .btn-planes {
-        font-size: 10px;
+        font-size: 20px;
         padding: 6px;
         margin-top: 15px;
     }
