@@ -76,13 +76,18 @@ nav a:hover{
 
 .presentacion {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: justify;
     align-items: center;
     color:#94A3B8;
 }
 .presentacion > * {
     margin: 8px 0;  /* junta todo con solo 5px entre cada elemento */
+}
+
+.titprese{
+    padding: 20px;
+    text-align: justify;  
+    text-align-last: center;
 }
 
 
@@ -383,6 +388,12 @@ nav a:hover{
         font-size: 14px;
         padding: 8px 16px;
     }
+
+    .titprese{
+    padding: 20px;
+    text-align: justify;  
+    text-align-last: center;
+}
 }
 
 /* Para celulares más pequeños (menos de 500px) */
@@ -438,6 +449,12 @@ nav a:hover{
     .logo {
         width: 80px;
     }
+
+    .titprese{
+    padding: 20px;
+    text-align: justify;  
+    text-align-last: center;
+}
 }
 
 /* Para tablets en modo horizontal */
