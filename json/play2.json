@@ -1,47 +1,76 @@
-{
-    "productos": [
-        {
-            "id": 1,
-            "nombre": "Pendrive con 8 juegos PS2",
-            "descripcion": "Juegos a elección del cliente",
-            "precio": 100000,
-            "imagen": "img/pendrives/pen32.png"
-        },
-        {
-            "id": 2,
-            "nombre": "Pendrive con 12 juegos PS2",
-            "descripcion": "Juegos a elección del cliente",
-            "precio": 120000,
-            "imagen": "img/pendrives/pen64.png"
-        },
-        {
-            "id": 3,
-            "nombre": "Playstation 2",
-            "descripcion": "Dos controles, 8 Juegos, Cable video-alimentación y memory card",
-            "precio": 580000,
-            "imagen": "img/consolas/play-2.png"
-        },
-        {
-            "id": 4,
-            "nombre": "Playstation 3",
-            "descripcion": "Un control, 18 Juegos, 3 tiendas, Cable hdmi-alimentacion-cargador",
-            "precio": 850000,
-            "imagen": "img/consolas/play-3.png"
+[
+    {
+        "img": "/img/luo32gb.png",
+        "nombre": "Pendrive con 8 Juegos",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Juegos 100% funcionales y probados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "100.000 Gs"
 
-        },
-        {
-            "id": 5,
-            "nombre": "Memory Card 8mb",
-            "descripcion": "Memory Card para ps2 con opl",
-            "precio": 70000,
-            "imagen": "https://i.pinimg.com/736x/33/ff/e7/33ffe73d65fdab0f184a22d3006b7e1a.jpg"
-        },
-        {
-            "id": 6,
-            "nombre": "Control Play 2",
-            "descripcion": "Control Genérico Sony",
-            "precio": 70000,
-            "imagen": "https://tse2.mm.bing.net/th/id/OIP.0AxBoDrUWFFKF2zWwlkWUgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
-        }
-    ]
-}
+        
+    },
+    {
+        "img": "/img/luo64gb.png",
+        "nombre": "Pendrive con 12 Juegos",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Juegos 100% funcionales y probados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "120.000 Gs"
+    },
+    {
+        "img": "/img/luo64gb.png",
+        "nombre": "Pendrive con 15 Juegos",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Juegos 100% funcionales y probados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "150.000 Gs"
+    },
+    {
+        "img": "/img/controlps2.jpg",
+        "nombre": "Control Play 2",
+        "consola": "PlayStation Store",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Producto verificado",
+        "seleccion": ".",
+        "precio": "65.000 Gs"
+    },
+    {
+        "img": "/img/ps2hdmi.jpg",
+        "nombre": "Adaptador hdmi ps2",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Producto verificado",
+        "seleccion": "Mejora la calidad de la ps2 en tv's planas",
+        "precio": "130.000 Gs"
+    }, 
+    {
+        "img": "/img/cableav.jpg",
+        "nombre": "Cable Av",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Producto verificado",
+        "seleccion": "Cable video",
+        "precio": "45.000 Gs"
+    },
+    {
+        "img": "/img/cableen.jpg",
+        "nombre": "Cable power",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Producto verificado",
+        "seleccion": "Da energía a la consola",
+        "precio": "45.000 Gs"
+    },
+    {
+        "img": "/img/memory card.jpg",
+        "nombre": "Memory card con OPL",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Producto verificado",
+        "seleccion": "Para guardar tus partidas (incluye opl)",
+        "precio": "70.000 Gs"
+    }
+]

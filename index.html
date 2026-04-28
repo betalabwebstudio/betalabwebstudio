@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,212 +8,79 @@
 </head>
 <body>
     <header>
-        <div class="container-logo">
-            <img class="logo" src="img/logo.jpeg" alt="">
-        </div>
-        <div class="container-enlaces">
-            <a href="index.html">Inicio</a>
-            <a href="planes.html">Planes</a>
-            <a href="contacto.html">Contacto</a>
-        </div>
+        <img class="logo" src="img/logobetagames.jpeg" alt="">
     </header>
+
+    <nav>
+    <div class="hamburguesa">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="nav-menu">
+        <a onclick="ps2()">Playstation 2</a>
+        <a onclick="ps3()">Playstation 3</a>
+        <a onclick="pc()">Juegos PC</a>
+        <a onclick="giftcard()">Gift Cards</a>
+        <a onclick="contacto()">Contactos</a>
+        <a onclick="carrito()">Carrito</a>
+    </div>
+</nav>
+    <div class="caja-buscador">
+         <input id="buscador"  type="text" placeholder="Ingrese aquí lo que quiera buscar...">
+    </div>
+   
     <main>
-        <!--Seccion 1-->
-        <div class="container1">
+        <div class="presentacion">
+            <img class="fondo" src="" alt="">
+            <h3>Encuentra los mejores juegos para PlayStation (PS2, PS3, PS4), PC, además de Gift Cards y códigos digitales. Todo en un solo lugar.</h3>
+        </div>
 
-            <div class="container-titulos">
-                <h3>Impulsamos tu negocio con soluciones <br>digitales completas; diseño, desarrollo <br>
-                y sistemas a medida.
-                </h3>
-                <p>Desde la identidad de tu marca, hasta sistemas que automatizan tu negocio, todo en un solo lugar</p>
-            </div>
-
-            <div class="container-img">
-                <img class="img-ilustrativa" src="img/imagen-ilustrativa.png" alt="">
-            </div>
+        <section class="seccion-videojuegos">
             
-        </div>
-        <div class="botones-container1">
-            <button>Solicitar presupuesto</button>
-            <button id="btn-planes" onclick="verPlanes()">Ver planes</button>
-        </div>
-
-        <!--sobre nosotros-->
-
-        <div class="linea-con-texto">
-            <hr>
-                <h2 class="titulos">Sobre nosotros</h2>
-            <hr>
-        </div>
-
-        <div class="container-sobre-nosotros">
-            <h3>En <span>Betalab Web Studio</span> somos un  equipo apasionado por la tecnología 
-            y el diseño, comprometidos en ayudar a emprendedores y empresas  a dar el siguiente paso
-            en el mundo digital.
-            
-            </h3>
-        </div>
-        
-
-        <!--Servicios-->
-        <div class="linea-con-texto">
-            <hr>
-                <h2 class="titulos">Servicios</h2>
-            <hr>
-        </div>
-
-        <section class="servicios">
-    <div class="contenedor-tarjetas">
-        
-        <div class="tarjeta">
-            <h3>Presencia Digital <br> profesional</h3>
-            <ul>
-                <li>Páginas Web</li>
-                <li>Tiendas Online</li>
-                <li>Sistemas de gestión</li>
-                <li>Landing Page</li>
-            </ul>
-        </div>
-
-        <div class="tarjeta">
-            <h3>Sistemas de gestión</h3>
-            <ul>
-                <li>Sistema de clientes</li>
-                <li>Sistema de ventas y facturación</li>
-                <li>Control de Inventario</li>
-                <li>Sistema de reportes</li>
-                <li>Gestión de Turnos</li>
-            </ul>
-        </div>
-
-        <div class="tarjeta">
-            <h3>Diseño gráfico</h3>
-            <ul>
-                <li>Logos</li>
-                <li>Branding</li>
-                <li>Flyers</li>
-                <li>Banners</li>
-            </ul>
-        </div>
-            
-    </div>
-
-        <button onclick="verPlanes()" id="btn-planes"  class="btn-planes" >Ver planes</button>
-
-    <div>
-        <p class="p-remoto">Brindamos Asesoramiento y capacitación en modalidad presencial o remota en todos nuestros servicios</p>
-    </div>
-    </section>
-
-    <!--Portafolio-->
-
-    <div class="linea-con-texto">
-        <hr>
-            <h2 class="titulos">Portafolio</h2>
-        <hr>
-    </div>
-
-    <section class="portafolio">
-
-        <h4>Algunos de nuestros trabajos</h4>
-
-        <div class="container-portafolio">
-
-            <div class="tarjeta-portafolio">
-                <img src="img/ejemplos.jpg" alt="">
-                <a href="">Barbería</a>
+            <!--Play2-->
+            <h1 class="titulo">📀PlayStation 2📀</h1>
+            <div class="productos-container">
+                <div id="productosGridPS2" class="productos-grid"></div>
+            </div>
+            <div class="cajabtnver">
+                <button onclick="ps2()" class="btnvermas">Ver más sobre ps2</button>
             </div>
 
-            <div class="tarjeta-portafolio">
-                <img src="img/ejemplos.jpg" alt="">
-                <a href="">Perfumería</a>
+            <!--PS3-->
+            <h1 class="titulo">🎮PlayStation 3🎮</h1>
+            <div class="productos-container">
+                <div id="productosGridPS3" class="productos-grid"></div>
+            </div>
+            <div class="cajabtnver">
+                <button onclick="ps3()" class="btnvermas">Ver más sobre ps3</button>
             </div>
 
-            <div class="tarjeta-portafolio">
-                <img src="img/ejemplos.jpg" alt="">
-                <a href="">Joyería</a>
+            <!--PC-->
+            <h1 class="titulo">💻PC (Juegos digitales)💻</h1>
+            <div class="productos-container">
+                <div id="productosGridPC" class="productos-grid"></div>
             </div>
-
-            <div class="tarjeta-portafolio">
-                <img src="img/ejemplos.jpg" alt="">
-                <a href="">Salón de Spa</a>
-            </div>
-
-            <div class="tarjeta-portafolio">
-                <img src="img/ejemplos.jpg" alt="">
-                <a href="">Sistema Bancario</a>
-            </div>
-
-            <div class="tarjeta-portafolio">
-                <img src="img/ejemplos.jpg" alt="">
-                <a href="">Sistema para ande</a>
+            <div class="cajabtnver">
+                <button onclick="pc()" class="btnvermas">Ver más sobre ps3</button>
             </div>
 
             
-        </div>
-
-    </section>
-
-    <!--Contactos-->
-    <div class="linea-con-texto">
-            <hr>
-                <h2 class="titulos">Contactos</h2>
-            <hr>
-        </div>
+            
+        </section>
 
 
-        <section class="contactos">
-
-    <div class="contacto">
-        <h4>Contactos:</h4>
-        
-        <div class="item-contacto">
-            <img class="icono-redes" src="img/social.png" alt="">
-            <a href="whatssap">Whatsapp</a>
-        </div>
-        
-        <div class="item-contacto">
-            <img class="icono-redes" src="img/gmail.png" alt="">
-            <a href="">Correo electrónico</a>
-        </div>
-    </div>
-
-    <div class="contacto">
-        <h4>Redes sociales:</h4>
-        
-        <div class="item-contacto">
-            <img class="icono-redes" src="img/instagram.png" alt="">
-            <a href="">Instagram</a>
-        </div>
-        
-        <div class="item-contacto">
-            <img class="icono-redes" src="img/facebook.png" alt="">
-            <a href="">Facebook</a>
-        </div>
-        
-        <div class="item-contacto">
-            <img class="icono-redes" src="img/tik-tok.png" alt="">
-            <a href="">Tiktok</a>
-        </div>
-    </div>
-
-</section>
 
     </main>
     <footer>
-        <div class="container-horario">
-            <span>Horario de atención:</span> <br>
-            <span>Lunes-Viernes de 08:30hs a 18:00hs</span>
-        </div>
-        
-        <div class="copyright">
-            <p>© 2026 Betalab Web Studio. Todos los derechos reservados.</p>
-        </div>
+
     </footer>
 
-
-    <!--Scripts-->
-
-    <script src="js/accion-botones.js"></script>
+    <!--Script-->
+    <script src="js/ps2.js"></script>
+    <script src="js/ps3.js"></script>
+    <script src="js/pc.js"></script>
+    <script src="js/direccion.js"></script>
+    <script src="js/btnhambur.js"></script>
 </body>
 </html>
